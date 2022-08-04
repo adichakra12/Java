@@ -4,11 +4,15 @@ public class CalculatorTest {
 
 	public static void main(String[] args) {
 		Calculator ti84 = new Calculator();
-		ti84.setOperandOne(10.5);
-		ti84.setOperandTwo(5.2);
+		ti84.performOperation(11.0);
+		ti84.setOperation("*");
+		ti84.performOperation(3);
 		ti84.setOperation("+");
-		ti84.performOperation();
+		ti84.performOperation(4);
 		ti84.getResults();
+		
+//		ti84.setOperation("+");
+//		ti84.getResults();
 		
 
 	}
